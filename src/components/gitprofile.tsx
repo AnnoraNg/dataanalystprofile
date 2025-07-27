@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import axios, { AxiosError } from 'axios';
 import { formatDistance } from 'date-fns';
-import AboutCard from './index';
+import AboutCard from './AboutCard';
 import {
   CustomError,
   GENERIC_ERROR,
