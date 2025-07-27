@@ -25,7 +25,7 @@ const CONFIG = {
       projects: [],
     },
   },
-  seo: { title: 'Data Portfolio of Annora Ng', description: 'Data Analyics Projects by Annora Ng', imageURL: 'https://raw.githubusercontent.com/AnnoraNg/dataanalystprofile/main/seo-cover.png' },
+  seo: { title: 'Data Portfolio of Annora Ng', description: 'Data Analyics Projects by Annora Ng', imageURL: 'https://raw.githubusercontent.com/AnnoraNg/dataanalystprofile/main/seo-cover2.png' },
   social: {
     linkedin: 'annorang',
     x: '',
