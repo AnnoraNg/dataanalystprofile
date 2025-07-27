@@ -190,7 +190,7 @@ const GitProfile = ({ config }: { config: Config }) => {
         <>
           <div className={`p-4 lg:p-10 min-h-full ${BG_COLOR}`}>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
-              <div className="col-span-1">
+              <div className="col-span-1 order-2 lg:order-1">
                 <div className="grid grid-cols-1 gap-6">
                   {!sanitizedConfig.themeConfig.disableSwitch && (
                     <ThemeChanger
@@ -238,7 +238,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                   )}
                 </div>
               </div>
-              <div className="lg:col-span-2 col-span-1">
+              <div className="lg:col-span-2 col-span-1 order-1 lg:order-2">
                 <div className="grid grid-cols-1 gap-6">
                   <AboutCard loading={loading} />
                   {sanitizedConfig.projects.github.display && (
