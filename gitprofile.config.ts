@@ -25,9 +25,9 @@ const CONFIG = {
       projects: [],
     },
   },
-  seo: { title: 'Data Portfolio of Annora Ng', description: '', imageURL: '' },
+  seo: { title: 'Data Portfolio of Annora Ng', description: 'Data Analyics Projects by Annora Ng', imageURL: 'https://raw.githubusercontent.com/AnnoraNg/dataanalystprofile/main/seo-cover.png' },
   social: {
-    linkedin: 'www.linkedin.com/in/annorang',
+    linkedin: 'annorang',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -50,7 +50,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1bMkkivrEbs5fuaOiMR29GCS4Zw01STLf/view?usp=sharing', 
   },
   skills: [
     'SQL',
@@ -108,7 +108,7 @@ const CONFIG = {
     limit: 0, 
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-FDDCQ535SJ', 
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
@@ -126,7 +126,7 @@ const CONFIG = {
     // Display the ring in Profile picture
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
+    // Available themes. 
     themes: [
       'light',
       'dark',
@@ -166,13 +166,6 @@ const CONFIG = {
       'procyon',
     ],
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
