@@ -15,31 +15,32 @@ const AboutCard = ({ loading }: { loading: boolean }) => {
   );
 
   return (
-  <div className="card shadow-lg card-sm bg-base-100 w-full col-span-full">
-    <div className="card-body">
-      <div className="mx-3">
-        <h5 className="card-title">
-          {loading ? (
-            skeleton({ widthCls: 'w-24', heightCls: 'h-6' })
-          ) : (
-            <span className="text-base-content opacity-70">About Me</span>
+  <div className="col-span-1 lg:col-span-2">
+    <div className="card bg-base-200 shadow-xl border border-base-300">
+      <div className="card-body p-8">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
+          <div className="min-w-0 flex-1">
+            <h3 className="text-base sm:text-lg font-bold text-base-content truncate">
+              {loading
+                ? skeleton({ widthCls: 'w-48', heightCls: 'h-8' })
+                : 'About Me'}
+            </h3>
+          </div>
+        </div>
+        <div className="text-base-content text-sm leading-relaxed">
+          {loading ? renderSkeleton() : (
+            <>
+              I'm a marketing and data analyst with experience in digital campaigns and analytics projects.
+              I enjoy solving problems with data, turning user behavior into insights, and working across
+              teams to drive meaningful outcomes. I'm especially drawn to roles that blend creativity, strategy,
+              and data analysis.
+            </>
           )}
-        </h5>
-      </div>
-      <div className="text-base-content mx-4 my-2 text-sm leading-relaxed">
-        {loading ? (
-          renderSkeleton()
-        ) : (
-          <>
-            I'm a marketing and data analyst with experience in digital campaigns and analytics projects.
-            I enjoy solving problems with data, turning user behavior into insights, and working across
-            teams to drive meaningful outcomes. I'm especially drawn to roles that blend creativity, strategy,
-            and data analysis.
-          </>
-        )}
+        </div>
       </div>
     </div>
   </div>
+
 );
 };
 export default AboutCard;
