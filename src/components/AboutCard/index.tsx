@@ -15,7 +15,7 @@ const AboutCard = ({ loading }: { loading: boolean }) => {
   );
 
   return (
-    <div className="card shadow-lg card-sm bg-base-100">
+    <div className="card shadow-lg card-sm bg-base-100 w-full col-span-full"">
       <div className="card-body">
         <div className="mx-3">
           <h5 className="card-title">
