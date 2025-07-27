@@ -33,7 +33,7 @@ const AboutCard = ({ loading }: { loading: boolean }) => {
               I'm a marketing and data analyst with experience in digital campaigns and analytics projects.
               I enjoy solving problems with data, turning user behavior into insights, and working across
               teams to drive meaningful outcomes. I'm especially drawn to roles that blend creativity, strategy,
-              and data analysis.
+              and data analysis. I enjoy bringing structure to messy problems and constantly learning from data, people, and patterns.
             </>
           )}
         </div>
