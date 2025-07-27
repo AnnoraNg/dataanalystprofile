@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { skeleton } from '../../utils';
 
 const AboutCard = ({ loading }: { loading: boolean }) => {
