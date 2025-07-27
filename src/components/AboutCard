@@ -1,0 +1,18 @@
+import React from 'react';
+
+const AboutCard = () => {
+  return (
+    <div className="card shadow-lg compact bg-base-100">
+      <div className="card-body">
+        <h2 className="card-title text-lg font-semibold">About Me</h2>
+        <p>
+          I'm a marketing analyst with a foundation in digital campaigns and growing expertise in data analytics. 
+          I enjoy solving business problems with SQL, Python, and Tableau, and translating user behaviour into data-backed insights. 
+          I'm especially interested in roles that blend marketing strategy with analytics.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default AboutCard;
