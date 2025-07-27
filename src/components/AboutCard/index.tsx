@@ -41,5 +41,5 @@ const AboutCard = ({ loading }: { loading: boolean }) => {
     </div>
   </div>
 );
-
+};
 export default AboutCard;
