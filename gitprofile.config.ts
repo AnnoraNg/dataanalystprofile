@@ -50,7 +50,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1bMkkivrEbs5fuaOiMR29GCS4Zw01STLf/view?usp=sharing', 
+      '', 
   },
   skills: [
     'SQL',
