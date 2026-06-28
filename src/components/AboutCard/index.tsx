@@ -27,8 +27,8 @@ const AboutCard = ({ loading }: { loading: boolean }) => {
           <div className="text-base-content text-sm leading-normal">
             {loading ? renderSkeleton() : (
               <>
-                Marketing and data analyst with experience in digital campaigns and analytics projects.  
-                I turn user behavior into insights, collaborate across teams, and translate data into strategy.
+                Data analyst in the gaming industry, focused on player behaviour, game performance, retention, and user value analysis.  
+                I investigate how players move, spend, return, and drop off across live games, then break down metric shifts across cohorts, game types, user value groups, and time periods.
               </>
             )}
           </div>
