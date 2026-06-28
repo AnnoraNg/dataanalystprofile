@@ -65,6 +65,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'HigoGame',
+      position: 'Associate Data Analyst',
+      from: 'Sept 2025',
+      to: 'Present',
+      companyLink: '',
+    },
+    {
       company: 'Publicis Groupe',
       position: 'Media Planning Intern',
       from: 'Feb 2024',
